@@ -1,0 +1,149 @@
+html {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+#header {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0px 10px;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid seashell;
+}
+
+#navigation a {
+    margin: 0px 5px;
+    color: seashell;
+    text-decoration: none;  
+}
+
+#logo {
+    font-family: cursive;
+    font-size: 50px;
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    background: center / cover no-repeat url("../img/tea-store/img-mission-background.jpg")
+}
+
+#hero-text {
+    width: 100%;
+    background-color: black;
+}
+
+.light-text {
+    display: block;
+}
+
+#featured-section {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 75px;
+    padding-top: 75px;
+}
+
+#img-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-img {
+    flex: 0 0 33%;
+    min-width: 300px;
+    min-height: 200px;
+}
+
+#locations-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0;
+    background: center / cover no-repeat url("../img/tea-store/img-locations-background.jpg");
+}
+
+#locations-div-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: initial;
+    padding-bottom: 20px;
+}
+
+.locations-div {
+    background-color: black;
+    min-width: 250px;
+    min-height: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#locations-section h2 {
+    text-shadow: 1px 1px 2px black;
+}
+
+.locations-div li {
+    font-size: 18px;
+    text-align: left;
+    list-style: none;
+}
+
+.locations-div h3 {
+    text-align: center;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.email, 
+.phone  {
+    font-size: 16px;
+    list-style: none;
+    text-align: center;
+    margin: none;
+}
+
+.copyright {
+    font-size: 8px;
+    text-align: center;
+}

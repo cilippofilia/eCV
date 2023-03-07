@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--link of the styling CSS file-->
+        <link rel="stylesheet" href="../css/index.css">
+
+        <!--title of the webpage-->
+        <title>My Website</title>
+    </head>
+    
+    <body>
+        <!--this marks the header of the webpage with picture name and contact informations; 
+            from here on each block of content is placed inside a div for easy manipulation of its position-->
+        <header>
+            <!--PICS AND CONTACT DETAILS-->
+            <div class="profile-infos">
+                <div>
+                    <img class="pic" src="../img/index/social-profile-zoomed.png" alt="Photo profile">
+                </div>
+
+                <div class="infos">
+                    <h1>Filippo Carlo Cilia</h1>
+                    <p><img class="info-logos" src="../img/index/phone.png" alt="phone">+44 (0) 7706 745 690</p>
+                    <p><img class="info-logos" src="../img/index/mail.png" alt="mail">filippocarlocilia@gmail.com</p>
+                </div>        
+            </div>
+        </header>
+
+        <!--PAGE NAVIGATION - easy navigation around the page-->
+        <!--this div makes the 'about' and 'projects' fast links stick to the top of the page-->
+        <div class="sticky">
+            <nav>
+                <ul>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#websites">Websites</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <!--BIO - brief introduction about me-->
+        <div id="about" class="bio">
+            <h3>Bio</h3>
+            <p>I'm a driven individual with a passion for software engineering and mixology. My diverse skills and competencies from working in hospitality have prepared me to excel.<br>I'm motivated by learning, growth, and making a positive impact. My ultimate goal is to become a skilled software developer and work for companies dedicated to making a difference.<br>When not working or mixing cocktails, I enjoy skateboarding, hitting the gym, and staying up-to-date on tech and cryptocurrencies.</p>            
+        </div>
+        
+        <!--SKILLS - personal skills gained throughout learning-->
+        <div class="skills">
+            <h3>Skills and Competencies</h3>
+                <ul>
+                    <li>Python, SQL, Swift, HTML, CSS, JavaScript</li>
+                    <li>NoSQL, MySQL, UIKit, Swiftui, Django, Git, GitHub, Figma</li>
+                    <li>Systems analysis and design, Natural Language Processing, Object-Oriented Programming, MVVM and MVC code structure</li>
+                </ul>
+        </div>
+
+        <!--EDUCATION - section related to background education -->
+        <div class="education">
+            <h3>Education</h3>
+            <ul>
+            <li>Skilled Bootcamp at HyperionDev - Software Engineering</li>
+            <li>Full Stack Developer - Codecademy</li>
+            <li>iOS Developer Path - Codecademy</li>
+            <li>SwiftUI Essential Training - LinkedIn</li>
+            <li>100 Days of SwiftUI - Hacking with Swift - Paul Hudson</li>
+            <li>100 Days of Swift - Hacking with Swift - Paul Hudson</li>
+            <li>Professional Institue for Commercial Services "G. Pessina" - Diploma for Business Management</li>
+            </ul>
+        </div>
+
+        <!--WORK - section related to personal working experiences-->
+        <div class="work">
+            <h3>Latest Work Experience</h3>
+            <h4>Head Bartender/Bar Supervisor at Hilton Hotels</h4>
+            <p><strong>Duration:</strong> 06/2021 - present</p>
+            <p>Skills learned and improved:</p>
+                <ul>
+                    <li>Led a team of bartenders, motivating and delegating tasks effectively under high-pressure situations, resulting in improved customer satisfaction and increased revenue</li>
+                    <li>Demonstrated excellent customer service skills by providing personalized recommendations to customers, handling complaints, and exceeding expectations</li>
+                    <li>Communicated effectively with team members and customers, actively listening to feedback and responding appropriately to ensure a positive experience for all</li>
+                    <li>Maintained a highly organized bar operation by managing inventory, scheduling staff breaks on shifts, and keeping of the daily close of the business</li>
+                    <li>Utilized problem-solving skills to quickly and creatively overcome unexpected issues, resulting in a smooth and efficient operation</li>
+                    <li>Showcased creativity by developing new and exciting drink recipes, designing unique bar themes and experiences, and finding innovative solutions to challenges</li>
+                </ul>
+        </div>
+
+        <!--PROJECTS - section related to projects I have built so far with related direct link-->
+        <div id="projects" class="projects">
+            <h3>Projects</h3>
+            
+            <div>
+                <h4><a href="https://github.com/cilippofilia/Drinko">Drinko</a></h4>
+                    <p>Whether you want to start making cocktails, you are a beginner bartender or simply a cocktail aficionado, this app will guide you through the basics of bartending, teach you some tips and tricks and tell you more about the most known cocktails.<br>
+                        This app was entirely developed using Swift.</p>
+            </div>
+
+            <div>
+                <h4><a href="https://github.com/cilippofilia/Taskly">Taskly</a></h4>
+                    <p>Write, execute, update and complete your tasks, projects and goals without efforts. A clean and organized interface will help you keep track of your tasks, duties & goals, set priorities and everything will be summarized in the home page. Organizing your goals has never been easier.<br>
+                        This app was entirely developed using Swift.</p>
+            </div>
+
+            <div>
+                <h4><a href="https://github.com/cilippofilia/Inventory">Inventory.py</a></h4>
+                    <p>This is a command-line interface application built entirely in Python that helps manage the stock of a shoe store. It uses Object-Oriented Programming (OOP) principles to create classes and objects to represent the store and its inventory.<br>
+                        This app was entirely developed using Python.</p>
+            </div>
+
+            <div>
+                <h4><a href="https://github.com/cilippofilia/TaskManager.py">TaskManager.py</a></h4>
+                    <p>This is a command-line interface application built entirely in Python that helps manage tasks. It uses Object-Oriented Programming (OOP) principles to create classes and objects to represent the tasks and their properties.<br>
+                        This app was entirely developed using Python.</p>
+            </div>
+        </div>
+
+        <div id="websites" class="projects">
+            <h3>Websites</h3>
+
+            <div>
+                <h4><a href="./html/shoes_store.html">Online Sneaker Store</a></h4>
+                    <p>This Online Sneaker Store specializes in selling Nike's all-time classic sneakers. You can find a wide selection of iconic Nike shoes, such as the Air Jordan, Air Force 1, and Air Max models.<br>
+                        Whether you are looking for a fresh pair of sneakers for your everyday wear, or hunting for a rare collector's item, this store has got you covered.<br>
+                        This website was created using Bootstrap.</p>
+            </div>
+
+            <div>
+                <h4><a href="./html/tea_store.html">Tea Cozy</a></h4>
+                    <p>This local tea store is a charming and cozy space that offers a variety of high-quality teas and tea accessories. With a focus on providing a personalized and immersive tea experience, the store's knowledgeable staff is always happy to help you find the perfect tea to suit your tastes and preferences.<br>
+                        This website was created using HTML/CSS.</p>
+            </div>
+        </div>
+
+        <!--FLOATER - this is a quick and easy way to access my github page, my HD portfolio and my LinkedIn-->
+        <div class="floater">
+            <div class="links">
+                <h3>Useful links</h3>
+                <ul>
+                    <li><a href="https://github.com/cilippofilia"><img class="logo" src="../img/index/github.png" alt="github logo"></a></li>
+                    <li><a href="https://www.linkedin.com/in/filippocarlocilia"><img class="logo" src="../img/index/linkedin.png" alt="linkedin logo"></a></li>
+                    <li><a href="https://www.hyperiondev.com/portfolio/116162/"><img class="hd-logo" src="https://www.hyperiondev.com/media/tutor-images/New_Logo_Blue.png" alt="HyperionDev Logo"></a></li>
+                </ul>
+            </div>
+        </div>
+    </body>
+
+    <!--COPYRIGHTS-->
+    <footer>
+        <div class="footer-infos">
+            <p class="copyright">Filippo Cilia &copy; 2022</p>
+        </div>
+    </footer>
+</html>
