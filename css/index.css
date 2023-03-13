@@ -41,7 +41,11 @@ header {
 }
 
 .infos {
-    padding: 20px 30px;
+    padding: 0px 30px;
+}
+
+.infos h1 {
+    margin-top: 6px;
 }
 
 .infos p {
@@ -50,8 +54,21 @@ header {
 }
 
 .info-logos {
-    width: 20px;
+    width: 18px;
     padding-right: 15px;
+}
+
+.infos-link {
+    color: white;
+    text-decoration: underline;
+}
+
+.header-links {
+    display: flex;
+    justify-content: space-between;
+    justify-items: baseline;
+    margin-top: 20px;
+    margin-bottom: 8px;
 }
 
 .pic {
@@ -70,19 +87,27 @@ header {
     position: sticky;
     top: 0px;
     margin-top: 0px;
+    padding: 0px;
+}
+
+main {
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
 
 nav {
     background-color: #fff;
     border-bottom: 1px solid #25274d;
-    padding: 10px;
+    padding: 10px 0px;
+    margin: 0px;
 }
   
 nav ul {
-    margin: 0;
+    margin: 0px;
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 nav ul li a {
@@ -97,7 +122,7 @@ nav ul li a:hover {
 /* bio, projects & work */
 .bio,
 .projects,
-.work {
+.experience {
     padding-top: 25px;
 }
 
@@ -110,7 +135,7 @@ nav ul li a:hover {
 /* floater of fast links */
 .floater {
     position: sticky;
-    bottom: 20px;
+    bottom: 30px;
     display: flex;
     justify-content: center;
 }
